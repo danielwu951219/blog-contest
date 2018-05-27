@@ -4,7 +4,7 @@
  * custom.css
  * https://keter.me/go?page=custom.css
  *
- * Adobe/Apple version 
+ * Adobe/Apple version
  * + Source Sans, Source Serif, Source Code, Source Han Sans
  * + HanHei, PingFang
  *
@@ -29,7 +29,6 @@ body, input, textarea, keygen, select, button {
   font-feature-settings: "liga", "kern";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-      text-shadow:0.03em 0.03em 0.03em #000 !important
 }
 
 
