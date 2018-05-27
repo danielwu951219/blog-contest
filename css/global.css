@@ -20,9 +20,9 @@ code{
     background-color: #999;
 }
 body{
-    background: url(http://7sbmib.com1.z0.glb.clouddn.com/body_background1.png);
+    background: url('http://s3.amazonaws.com/caself/products/photos/000/001/236/original/spotty-pink-background-seamless.jpg?1508124029');
     font-size: 1.0rem;
-    font-family: 'Titillium Web', sans-serif!important;
+    font-family: "source-han-serif-tc",serif;
 }
 .page-header{
     padding-bottom: 9px;
