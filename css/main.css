@@ -37,6 +37,13 @@ margin-top:25%;
 #p6{
   width:90%!important;
 }
+
+span{
+  border-left: 1px solid black;
+}
+#future{
+  margin-top:25%;
+}
 }
 
 
@@ -61,4 +68,21 @@ img {
 }
 .gif{
   z-index: 200;
+}
+
+h3{
+  font-size:1.1em;
+}
+
+#gotop {
+    position: fixed;
+    border-radius: 50px;
+    right: 20px;
+    bottom: 30px;
+    padding: 10px 16px;
+    font-size: 25px;
+    background: rgba(228, 211, 211, 0.36);
+    color: #FAFCFD;
+    cursor: pointer;
+    z-index: 1000;
 }
