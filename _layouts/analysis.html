@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{site.title}}</title>
 
-    {% include a-global-css.html %}
-    <link href="/blog-contest/css/head.css" rel='stylesheet' type="text/css"/>
-    <link href="/blog-contest/css/archives.css" rel='stylesheet' type="text/css"/>
-    <link href="/blog-contest/css/main1.css" rel='stylesheet' type="text/css"/>
+    {% include global-css.html %}
+    <link href="css/head.css" rel='stylesheet' type="text/css"/>
+    <link href="css/archives.css" rel='stylesheet' type="text/css"/>
+    <link href="css/main1.css" rel='stylesheet' type="text/css"/>
 
 </head>
 <body>
+
+{% include fb.html %}
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -36,6 +39,8 @@
             </li>
     </ul>
   </div>
+  <div class="fb-share-button  my-2 my-sm-0" data-href="https://danielwu951219.github.io/blog-contest/" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdanielwu951219.github.io%2Fblog-contest%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div>
+
   </nav>
 
     <div id="wrapper" >
@@ -46,7 +51,7 @@
 
     </div>
 
-    {% include a-global-js.html %}
+    {% include global-js.html %}
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
