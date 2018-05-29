@@ -1,0 +1,24 @@
+img {
+  width:100%;
+  height: auto;
+}
+
+.nav-link {
+    color: white;
+}
+
+body{
+  line-height:2.5;
+  font-size:1.4vw;
+}
+.text {
+  margin-top:10%;
+}
+@media screen and (min-width: 768px){
+  img {
+    width:100%;
+    height: auto;
+    margin-top:20%;
+  }
+
+}
